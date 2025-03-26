@@ -7,11 +7,11 @@ namespace piu2024
         static void Main(string[] args)
         {
             double a,b,c;
-            Console.WriteLine("podaj a");
+            Console.WriteLine("Podaj a");
             a = Double.Parse(Console.ReadLine());
-            Console.WriteLine("podaj b");
+            Console.WriteLine("Podaj b");
             b = Double.Parse(Console.ReadLine());
-            Console.WriteLine("podaj c");
+            Console.WriteLine("Podaj c");
             c = Double.Parse(Console.ReadLine());
 
             double delta = b * b - 4 * a * c;
