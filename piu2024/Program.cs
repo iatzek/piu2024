@@ -9,9 +9,9 @@ namespace piu2024
             double a,b,c;
             Console.WriteLine("Podaj a");
             a = Double.Parse(Console.ReadLine());
-            Console.WriteLine("Podaj b");
+            Console.WriteLine("Podaj C");
             b = Double.Parse(Console.ReadLine());
-            Console.WriteLine("Podaj c");
+            Console.WriteLine("Podaj D");
             c = Double.Parse(Console.ReadLine());
 
             double delta = b * b - 4 * a * c;
