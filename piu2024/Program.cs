@@ -15,7 +15,7 @@ namespace piu2024
 
             if (delta < 0)
             {
-                Console.WriteLine("brak rozwiazan");
+                Console.WriteLine("no way");
             } else
             {
                 Console.WriteLine($"rozwiazania to {(-b - Math.Sqrt(delta)) / (2 * a)}");
