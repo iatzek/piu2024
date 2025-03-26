@@ -18,8 +18,8 @@ namespace piu2024
                 Console.WriteLine("brak rozwiazan");
             } else
             {
-                Console.WriteLine($"rozwiazania to {(-b - Math.Sqrt(delta)) / 2 * a}");
-                Console.WriteLine($"rozwiazania to {(-b + Math.Sqrt(delta)) / 2 * a}");
+                Console.WriteLine($"rozwiazania to {(-b - Math.Sqrt(delta)) / (2 * a)}");
+                Console.WriteLine($"rozwiazania to {(-b + Math.Sqrt(delta)) / (2 * a)}");
             }
 
 
