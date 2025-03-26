@@ -6,7 +6,11 @@ namespace piu2024
     {
         static void Main(string[] args)
         {
-            double a = 1, b = 2, c = -16;
+            double a,b,c;
+            a = Double.Parse(Console.ReadLine());
+            b = Double.Parse(Console.ReadLine());
+            c = Double.Parse(Console.ReadLine());
+
             double delta = b * b - 4 * a * c;
 
             if (delta < 0)
