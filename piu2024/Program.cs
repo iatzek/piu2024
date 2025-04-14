@@ -19,13 +19,16 @@ namespace piu2024
             if (delta < 0)
             {
                 Console.WriteLine("Brak rozwiazan");
-            } else
+            }
+            else if (delta == 0)
+            {
+                Console.WriteLine($"Jedno rozwiazanie: {-b / (2 * a)}");
+            }
+            else
             {
                 Console.WriteLine($"Rozwiazania to {(-b - Math.Sqrt(delta)) / (2 * a)}");
                 Console.WriteLine($"Rozwiazania to {(-b + Math.Sqrt(delta)) / (2 * a)}");
             }
-
-
         }
     }
 }
