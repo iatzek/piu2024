@@ -24,8 +24,9 @@ namespace piu2024
                 Console.WriteLine($"Rozwiazania to {(-b - Math.Sqrt(delta)) / (2 * a)}");
                 Console.WriteLine($"Rozwiazania to {(-b + Math.Sqrt(delta)) / (2 * a)}");
             }
-
-
+            double xW=-b/(2*a);
+            double yW = -delta/(4*a);
+            Console.WriteLine($"Wierzchołek: ({xW}, {yW})");
         }
     }
 }
